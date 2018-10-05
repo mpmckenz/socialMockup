@@ -1,42 +1,171 @@
-<!DOCTYPE HTML>
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <title>
-        Facebook
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="profiletop">
-        <div id="fitInProfileTop">
-                    <h1 id="topText">Your Page Name</h1>
-                    <h3 id="topText"> Website </h3>
-                <button class="topBtn">Like</button>
-                <button class="topBtn">Follow</button>
-                <button class="topBtn">Message</button>
-                <button class="topBtn">...</button>
-            <img src="Blank profile.png">
-            <ul>
-                <button class="btn">Timeline</button>
-                <button class="btn">About</button>
-                <button class="btn">Welcome</button>
-                <button class="btn">FWB</button>
-                <button class="btn">More</button>
-            </ul>
-        </div>
-    </div>
-    <div id="bodySections">
-        <div class="left" id="firstLeftBox"></div>
-        <div class="left" id="secondLeftBox"></div>
-        <div class="left" id="thirdLeftBox"></div>
-        <div class="left" id="fourthLeftBox"></div>
-        <div class="right" id="firstRightBox"></div>
-        <div class="right" id="secondRightBox"></div>
-        <div class="right" id="thirdRightBox"></div>
-        <div class="right" id="fourthRightBox"></div>
+    <div id="bodyDiv">
+        <header>
+            <div id="fitInProfileTop">
+                <div id="header">
+                    <div id="profilePhoto"></div>
+                    <span id="topText">
+                        <h1 class="pageTitle">Your page name</h1>
+                        <h2 class="websiteTitle">Website</h2>
+                    </span>
+                    <div id="topBtn">
+                        <ul>
+                            <li>Like</li>
+                            <li>Follow</li>
+                            <li>Message</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="btn">
+                    <nav class="siteBar">
+                        <ul>
+                            <li>TimeLine</li>
+                            <li>About</li>
+                            <li>Welcome</li>
+                            <li>FWB</li>
+                            <li>More</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="leftColumn">
+                <section class="contentBlock left aboutYourPage">
+                    <p></p>
+                    <h4>About Your page name</h4>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium ratione fugit.</p>
+                    <p class="anchor_p">
+                        <hr>
+                        <a>your website</a>
+                    </p>
+                </section>
+                <section class="contentBlock left addressBlock">
+                    <h3>About</h3>
+                    <hr>
+                    <address>
+                        Your Address
+                        <p></p>
+                        City, Country
+                    </address>
+                    <hr>
+                    <a>Add phone number</a>
+                </section>
+                <section class="contentBlock left">
+                    <h3>Apps</h3>
+                    <hr>
+                    <div id="app1"></div> FarmVille
+                    <hr>
+                    <div id="app1"></div> Candy Crush
+                    <hr>
+                    <div id="app1"></div> Dragon City
+                </section>
+                <section class="contentBlock left">
+                    <h3>Photos</h3>
+                    <div id="allPhotos">
+                        <div id="photo1"></div>
+                        <br>
+                        <div id="photo1"></div>
+                        <br>
+                        <div id="photo1"></div>
+                        <br>
+                        <div id="photo2"></div>
+                        <br>
+                        <div id="photo2"></div>
+                        <br>
+                        <div id="photo2"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="rightColumn">
+                <section class="contentBlock">
+                    <div class="friendHeader">
+                        <div class="friendSmallPhotoDiv"></div>
+                        <p></p>
+                        <p>
+                            <a>Your page name</a> changed their
+                            <a>cover photo</a>.<br>3 minutes ago
+                        </p>
+                    </div>
+                    <div class="friendBigPhotoDiv"></div>
+                    <div class="footer">
+                        <p>
+                            <a>Like</a><a>Comment</a><a>Share</a>
+                        </p>
+                    </div>
+                </section>
+                <section class="contentBlock">
+                    <div class="friendHeader">
+                        <div class="friendSmallPhotoDiv"></div>
+                        <p>
+                            <a>Your page name</a>
+                            <br>December 12, 2013</p>
+                    </div>
+                    <div class="secondRightBox">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quam quos placeat optio
+                            necessitatibus,
+                            provident qui distinctio hic nihil alias vel suscipit.</p>
+                    </div>
+
+                    <div class="footer">
+                        <p>
+                            <a>Like</a>
+                            <a>Comment</a>
+                            <a>Share</a>
+                        </p>
+                    </div>
+                </section>
+                <section class="contentBlock">
+                    <div class="friendHeader">
+                        <div class="friendSmallPhotoDiv"></div>
+                        <p>
+                            <a>Your page name</a> changed their
+                            <a>cover photo</a>.<br>3 minutes ago</p>
+                    </div>
+                    <div class="friendBigPhotoDiv"></div>
+                    <div class="footer">
+                        <p>
+                            <a>Like</a><a>Comment</a><a>Share</a>
+                        </p>
+                    </div>
+                </section>
+                <section class="contentBlock">
+                    <div class="friendHeader">
+                        <div class="friendSmallPhotoDiv"></div>
+                        <p>
+                            <a>Your page name</a>
+                            <br>December 12, 2013</p>
+                    </div>
+                    <div class="secondRightBox">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quam quos placeat optio
+                            necessitatibus,
+                            provident qui distinctio hic nihil alias vel suscipi.</p>
+                    </div>
+                    <div class="footer">
+                        <p>
+                            <a>Like</a>
+                            <a>Comment</a>
+                            <a>Share</a>
+                        </p>
+                    </div>
+                </section>
+                </section>
+            </div>
+        </main>
     </div>
 </body>
 
-</HTML>
+</html>

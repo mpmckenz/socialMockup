@@ -1,0 +1,173 @@
+body {
+    background-color: gainsboro;
+}
+
+#bodyDiv {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fitInProfileTop {
+    background-color: white;
+    height: 370px;
+}
+
+#header {
+    background-color: #3b5998;
+    height: 325px;
+    position: relative;
+}
+
+#profilePhoto {
+    background-color: #3b5998;
+    border: 1px solid black;
+    float: left;
+    height: 150px;
+    left: 20px;
+    position: relative;
+    top: 200px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+#topText {
+    color: white;
+    display: inline-block;
+    padding-left: 16px;
+    position: absolute;
+    top: 175px;
+}
+
+#topBtn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 3px 16px 0;
+    border: 1px solid darkgray;
+    height: 25px;
+}
+
+#btn {
+    background-color: white;
+}
+
+nav.siteBar {
+    margin-left: 150px;
+}
+
+nav.siteBar li {
+    background-color: white;
+    display: inline;
+    padding: 8px 16px 0 16px;
+    text-align: center;
+    border-right: 1px solid lightgray;
+    vertical-align: center;
+}
+
+.inner_list li {
+    background-color: white;
+    display: inline;
+    text-align: center;
+    border-right: 1px solid lightgray;
+    vertical-align: center;
+    z-index: 1;
+}
+
+nav.siteBar li:hover span {
+    border-bottom: 3px solid #3b5998;
+}
+
+.leftColumn {
+    float: left;
+    width: 328px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.rightColumn {
+    margin-left: 338px;
+    width: 512px;
+    box-sizing: border-box;
+}
+
+.leftColumn section.contentBlock {
+    background-color: white;
+    margin: 0px 15px 15px 0;
+}
+
+.left {
+    padding: 5px 10px;
+}
+
+.rightColumn section.contentBlock {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.friendHeader {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.friendSmallPhotoDiv {
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: #3b5998;
+    margin: 10px;
+}
+
+.friendBigPhotoDiv {
+    background-color: #3b5998;
+    height: 200px;
+    margin: 5px;
+}
+
+.footer {
+    border-top: 1px solid gainsboro;
+}
+
+.footer p {
+    margin-left: 10px;
+    padding-bottom: 8px;
+}
+
+.footer p a {
+    margin: 8px;
+}
+
+#app1 {
+    width: 130px;
+    height: 100px;
+    background-color: #3b5998;
+}
+
+#photo1, #photo2 {
+    width: 100px;
+    height: 100px;
+    background-color: #3b5998;
+}
+
+#allPhotos {
+    column-count: 2;
+}
+
+a {
+    color: #0033cc;
+}
+
+.secondRightBox {
+    margin-left: 16px;
+    margin-right: 16px;
+}
